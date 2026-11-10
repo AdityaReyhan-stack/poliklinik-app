@@ -38,8 +38,8 @@
             @endif
             @if (Route::has('admin.obat.index'))
                 <a href="{{ route('admin.obat.index') }}" class="{{ $baseLink }} {{ request()->routeIs('admin.obat.*') ? $active : $inactive }}">
-                    <span aria-hidden="true">O</span>
-                    Data Obat
+                    <i class="fas fa-pills w-4 text-center" aria-hidden="true"></i>
+                    Manajemen Obat
                 </a>
             @endif
         @endif
